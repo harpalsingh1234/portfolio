@@ -172,7 +172,7 @@ p{
     background-color: yellowgreen;
 }
 .sidebarGo{
-    transform: translate(-443px 0);
+    transform: translate(-443px 0px);
     position: absolute;
 }
 .hamburger{
