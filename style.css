@@ -4,7 +4,6 @@
 }
 .sidebar{
      background-color:gray;
-    width:434px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 100vh;
 }
@@ -160,10 +159,19 @@ p{
     width: 75px;
     background-color: yellowgreen;
 }
+.sidebarGo{
+    transform: translate(443px 0);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 155px;
+}
 @media (max-width:1615px) {
     *{background-color:rgb(245, 179, 179);}
-    .sidebar{
-        transform: translate(443px 0);
-        position: absolute;
     }
-}
