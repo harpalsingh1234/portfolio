@@ -3,9 +3,11 @@
     padding: 0;
 }
 .sidebar{
+    position: absolute;
      background-color:gray;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 100vh;
+    transition:transform 0.3s ease-in;
 }
 .sidebar nav{
     padding: 45px;
@@ -35,37 +37,39 @@
     justify-content: space-around;
 }
 .devInfo{
+    font-size: 16px;
     display: flex;
     justify-content: center;
     flex-direction:column;
     font-family: 'Courier New', Courier, monospace;
 }
 .hello{
-    font-size:75px;
+    font-size:3em;
 }
 .name{
-    font-size:60px;
+    font-size:3em;
     font-weight:bold;
 }
 .about{
-    font-size:45px;
+    font-size:2.5em;
 }
 .moreabout{
-    font-size:22px;
+    font-size:2.2em;
     margin-top:23px;
     font-family: 'Courier New', Courier, monospace;
 }
 .buttons{
     margin-top:34px;
+    font-size: 16px;
 }
 .btn{
-    margin-top:0 3px ;
+    margin-top:3px 3px ;
     padding-top:9px 14px ;
     border-radius:22px ;
     color:white ;
     background-color:dodgerblue ;
     font-weight:bold ;
-    font-size:21px ;
+    font-size:2em ;
     cursor: pointer;
 }
 .btn-sm{
@@ -82,12 +86,12 @@
 }
 .contactform{
     padding:0 34px;
-    padding-top:144px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:88px;
 }
 .contactform h1{
     font-family: 'Courier New', Courier, monospace;
-    padding:12px 0;
+    /* padding:12px 0; */
 }
 .contactform form div{
     padding:10px 0;
@@ -98,7 +102,10 @@
     padding:3px;
     margin:6px 0 0 0;
     border-radius:5px;
-    width:26vw;
+    /* width:26vw; */
+    }
+    .contactform{
+        margin:0 40px;
     }
 #emailHelp{
     font-size:11px;
@@ -116,7 +123,9 @@
 .blogItem {
     margin: 20px;
     font-family: 'Courier New', Courier, monospace;
-
+}
+.blogContainer{
+    margin:88px;
 }
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -124,6 +133,9 @@ h1{
 } 
 p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.intro{
+    margin:88px;
 }
 .intro h2{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -169,9 +181,26 @@ p{
     top: 10px;
     left: 10px;
 }
+.hamb{
+    margin-top: 10px;
+    margin-left:10px;
+}
 .cross{
-    margin-left: 155px;
+    margin-left: 185px;
+    margin-top: 10px;
 }
 @media (max-width:1615px) {
-    *{background-color:rgb(245, 179, 179);}
+    /* *{background-color:rgb(245, 179, 179);} */
+    .devInfo{
+        font-size: 10px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+    .devPic{
+        display:none;
+    }
+    .intro,.blogContainer,.contactform{
+        margin:8px;
+    }
     }
