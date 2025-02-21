@@ -194,18 +194,3 @@ p{
     margin-left: 155px;
     margin-top: 10px;
  } 
-
- @media (max-width:1615px) { 
-     .devInfo{  
-        font-size: 10px;
-      }  
-      .buttons{
-        font-size: 6px;
-      }  
-     .devPic{ 
-        display:none;
-      } 
-    .intro,.blogContainer,.contactform{  
-        margin:8px;
-      }  
-    } 
