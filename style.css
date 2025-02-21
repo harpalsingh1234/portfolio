@@ -3,6 +3,7 @@
     padding: 0;
 }
 .sidebar{
+    position:absolute;
      background-color:gray;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 100vh;
@@ -174,8 +175,8 @@ p{
     background-color: yellowgreen;
 }
  .sidebarGo{
-    transform:translate(-443px 0px);
-      position: absolute;
+    transform:translate(-443px);
+      position:absolute;
  }
 .hamburger{
     position: absolute;
