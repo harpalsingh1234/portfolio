@@ -3,7 +3,6 @@
     padding: 0;
 }
 .sidebar{
-    position: absolute;
      background-color:gray;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 100vh;
@@ -29,8 +28,8 @@
     display: flex;
 }
 .infoContainer{
-    /* background-color: aqua; */
-    height: 58vh;
+     background-color: aqua; 
+    height:58vh;
     width: 80vw;
     margin: 144px auto;
     display: flex;
@@ -91,7 +90,7 @@
 }
 .contactform h1{
     font-family: 'Courier New', Courier, monospace;
-    /* padding:12px 0; */
+
 }
 .contactform form div{
     padding:10px 0;
@@ -104,15 +103,18 @@
     border-radius:5px;
     /* width:26vw; */
     }
-    .contactform{
+
+.contactform{
         margin:0 40px;
     }
+
 #emailHelp{
     font-size:11px;
     color:midnightblue;
     margin:0 5px;
     padding:3px 0 0 0;
 }
+
 #form-check{
     flex-direction: row;
 }
@@ -171,36 +173,38 @@ p{
     width: 75px;
     background-color: yellowgreen;
 }
-.sidebarGo{
-    transform: translate(-443px 0px);
-    position: absolute;
-}
+ .sidebarGo{
+    transform:translate(-443px 0px);
+      position: absolute;
+ }
 .hamburger{
     position: absolute;
     cursor: pointer;
     top: 10px;
     left: 10px;
 }
+
 .hamb{
     margin-top: 10px;
     margin-left:10px;
-}
-.cross{
-    margin-left: 185px;
+ } 
+ 
+.cross{  
+    margin-left: 155px;
     margin-top: 10px;
-}
-@media (max-width:1615px) {
-    /* *{background-color:rgb(245, 179, 179);} */
-    .devInfo{
+ } 
+
+ @media (max-width:1615px) { 
+     .devInfo{  
         font-size: 10px;
-    }
-    .buttons{
+      }  
+      .buttons{
         font-size: 6px;
-    }
-    .devPic{
+      }  
+     .devPic{ 
         display:none;
-    }
-    .intro,.blogContainer,.contactform{
+      } 
+    .intro,.blogContainer,.contactform{  
         margin:8px;
-    }
-    }
+      }  
+    } 
